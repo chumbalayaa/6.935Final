@@ -3,7 +3,7 @@ import csv
 import datetime
 import time
 
-filesToAnalyze = os.listdir('./twitterData')
+filesToAnalyze = os.listdir('./sentimentData')
 
 for fta in filesToAnalyze:
         with open('./sentimentData/'+fta, 'r') as input:
